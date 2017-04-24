@@ -1,0 +1,133 @@
+.container-bg{
+    background: linear-gradient(#0D0333,#26013D,#301140);
+    min-height: 100vh;
+    color: #e2e9e9;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/*BACKGROUND*/
+.bg-night{
+    background: linear-gradient(#0D0333,#26013D,#301140);
+}
+.bg-morning{
+    background: #b9adad; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#4dc4ff,#ffcc66) fixed; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#4dc4ff,#ffcc66) fixed; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#4dc4ff,#ffcc66) fixed; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4dc4ff,#ffcc66) fixed; /* Standard syntax */
+}
+.bg-afternoon{
+    background: #b9adad; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#99ccff,#66b2ff) fixed; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#99ccff,#66b2ff) fixed; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#99ccff,#66b2ff) fixed; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#99ccff,#66b2ff) fixed; /* Standard syntax */
+}
+/*TITILE*/
+.title-container{
+    margin-bottom: 50px;
+}
+.row h1{
+    text-shadow: 1px 1px 10px #29293d;
+    opacity: 10;
+    margin-top: 50px;
+}
+.row small{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+/*SEARCH_FROM*/
+.search-weather{
+    margin-bottom: 20px;
+    line-height: 52px;
+    display: none;
+}
+#search-weather{
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+#search-btn{
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-left: 20px;
+    color: #e2e9e9;
+}
+
+@media screen and (max-width: 768px){
+    #search-weather{
+        width: 60%;
+        text-align: center;
+        margin: 15px auto;
+    }
+}
+
+/*WEATHER_FRAME*/
+.weather-frame{
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 25px;
+    padding: 30px;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20px;
+}
+.clockDisplay-container{
+    display: inline-block;
+}
+#date{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+#time{
+    font-size: 64px;
+    margin-top: 0;
+}
+#time:hover{
+    transform: scale(1.1);
+}
+#metric, #imperial{
+    color: #d7e9ef;
+    font-size: 14px;
+    text-decoration: none;
+}
+#metric:hover, #imperial:hover{
+    color: white;
+}
+.weatherData-container{
+    font-size: 18px;
+}
+#temp, #humidity, #wind{
+     font-size: 14px;
+
+ }
+.setting-icon{
+    display: inline-block;
+    margin-left: 10px;
+}
+.setting-icon i{
+    color: white;
+}
+.move-left{
+    padding-right: 34px;
+}
+
+@media screen and (max-width: 564px){
+    #time{
+        font-size: 40px;
+    }
+}
+
+/*NOTICE*/
+.notice{
+    text-align: left;
+    display: none;
+}
+
+/*FUTURE_WEATHER*/
+.future-weather-container{
+    display: none;
+}
